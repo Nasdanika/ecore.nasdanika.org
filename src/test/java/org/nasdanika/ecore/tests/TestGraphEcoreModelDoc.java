@@ -170,7 +170,12 @@ public class TestGraphEcoreModelDoc {
 		
 		String siteMapDomain = "https://architecture.nasdanika.org";
 		
-		ActionSiteGenerator actionSiteGenerator = new ActionSiteGenerator();
+		ActionSiteGenerator actionSiteGenerator = new ActionSiteGenerator() {
+			
+			protected boolean isDeleteOutputPath(String path) {
+				return !"CNAME".equals(path);				
+			};
+		};
 		
 		Map<String, Collection<String>> errors = actionSiteGenerator.generate(
 				rootActionURI, 

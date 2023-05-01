@@ -1,6 +1,6 @@
 [
     {
-        "identifiers": ["uuid:3022a707-f5b6-4be8-be4e-c1eeb7c1cdec"],
+        "identifiers": ["uuid:85fba31c-b437-4233-b446-df044de69ec6"],
         "name": "Nasdanika",
         "icon": "https://docs.nasdanika.org/images/nasdanika-logo.png",
         "location": "https://www.nasdanika.org",
@@ -12,9 +12,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:3022a707-f5b6-4be8-be4e-c1eeb7c1cdec"]
+            "identifiers": ["uuid:85fba31c-b437-4233-b446-df044de69ec6"]
         },
-        "identifiers": ["uuid:0161616b-3a75-4493-add8-9a9bfa4d8381"],
+        "identifiers": ["uuid:51f1f8c6-a141-4930-8b9f-3fbbc0ab299c"],
         "name": "Search",
         "icon": "fas fa-search",
         "location": "search.html",
@@ -26,9 +26,9 @@
     {
         "container": {
             "reference": "children",
-            "identifiers": ["uuid:3022a707-f5b6-4be8-be4e-c1eeb7c1cdec"]
+            "identifiers": ["uuid:85fba31c-b437-4233-b446-df044de69ec6"]
         },
-        "identifiers": ["uuid:f4b69722-9bbb-47ca-8cf2-ca5a9f98522f"],
+        "identifiers": ["uuid:a0df26bc-d3d9-4014-a1b1-bf2163577b9b"],
         "name": "Glossary",
         "icon": "fas fa-book",
         "location": "glossary.html",
@@ -52,24 +52,10 @@
             "reference": "eClassifiers",
             "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
         },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EModelElement"],
-        "name": "EModelElement",
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EStringToStringMapEntry"],
+        "name": "EStringToStringMapEntry",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "location": "eClassifiers/EModelElement/index.html",
-        "type": {
-            "name": "EClass",
-            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
-        }
-    },
-    {
-        "container": {
-            "reference": "eClassifiers",
-            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
-        },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EPackage"],
-        "name": "EPackage",
-        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "location": "eClassifiers/EPackage/index.html",
+        "location": "eClassifiers/EStringToStringMapEntry/index.html",
         "type": {
             "name": "EClass",
             "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
@@ -94,108 +80,10 @@
             "reference": "eClassifiers",
             "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
         },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EEnumLiteral"],
-        "name": "EEnumLiteral",
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/ETypeParameter"],
+        "name": "ETypeParameter",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "location": "eClassifiers/EEnumLiteral/index.html",
-        "type": {
-            "name": "EClass",
-            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
-        }
-    },
-    {
-        "container": {
-            "reference": "eClassifiers",
-            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
-        },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/ENamedElement"],
-        "name": "ENamedElement",
-        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "location": "eClassifiers/ENamedElement/index.html",
-        "type": {
-            "name": "EClass",
-            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
-        }
-    },
-    {
-        "container": {
-            "reference": "eClassifiers",
-            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
-        },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EOperation"],
-        "name": "EOperation",
-        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "location": "eClassifiers/EOperation/index.html",
-        "type": {
-            "name": "EClass",
-            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
-        }
-    },
-    {
-        "container": {
-            "reference": "eClassifiers",
-            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
-        },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EReference"],
-        "name": "EReference",
-        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "location": "eClassifiers/EReference/index.html",
-        "type": {
-            "name": "EClass",
-            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
-        }
-    },
-    {
-        "container": {
-            "reference": "eClassifiers",
-            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
-        },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EGenericType"],
-        "name": "EGenericType",
-        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "location": "eClassifiers/EGenericType/index.html",
-        "type": {
-            "name": "EClass",
-            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
-        }
-    },
-    {
-        "container": {
-            "reference": "eClassifiers",
-            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
-        },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EDataType"],
-        "name": "EDataType",
-        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "location": "eClassifiers/EDataType/index.html",
-        "type": {
-            "name": "EClass",
-            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
-        }
-    },
-    {
-        "container": {
-            "reference": "eClassifiers",
-            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
-        },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EEnum"],
-        "name": "EEnum",
-        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "location": "eClassifiers/EEnum/index.html",
-        "type": {
-            "name": "EClass",
-            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
-        }
-    },
-    {
-        "container": {
-            "reference": "eClassifiers",
-            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
-        },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EParameter"],
-        "name": "EParameter",
-        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "location": "eClassifiers/EParameter/index.html",
+        "location": "eClassifiers/ETypeParameter/index.html",
         "type": {
             "name": "EClass",
             "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
@@ -220,6 +108,34 @@
             "reference": "eClassifiers",
             "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
         },
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EEnum"],
+        "name": "EEnum",
+        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
+        "location": "eClassifiers/EEnum/index.html",
+        "type": {
+            "name": "EClass",
+            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
+        }
+    },
+    {
+        "container": {
+            "reference": "eClassifiers",
+            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
+        },
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EGenericType"],
+        "name": "EGenericType",
+        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
+        "location": "eClassifiers/EGenericType/index.html",
+        "type": {
+            "name": "EClass",
+            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
+        }
+    },
+    {
+        "container": {
+            "reference": "eClassifiers",
+            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
+        },
         "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EAnnotation"],
         "name": "EAnnotation",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
@@ -234,10 +150,10 @@
             "reference": "eClassifiers",
             "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
         },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EStructuralFeature"],
-        "name": "EStructuralFeature",
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EParameter"],
+        "name": "EParameter",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "location": "eClassifiers/EStructuralFeature/index.html",
+        "location": "eClassifiers/EParameter/index.html",
         "type": {
             "name": "EClass",
             "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
@@ -248,53 +164,10 @@
             "reference": "eClassifiers",
             "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
         },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EStringToStringMapEntry"],
-        "name": "EStringToStringMapEntry",
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EEnumLiteral"],
+        "name": "EEnumLiteral",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "location": "eClassifiers/EStringToStringMapEntry/index.html",
-        "type": {
-            "name": "EClass",
-            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
-        }
-    },
-    {
-        "container": {
-            "reference": "eClassifiers",
-            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
-        },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/ETypeParameter"],
-        "name": "ETypeParameter",
-        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "location": "eClassifiers/ETypeParameter/index.html",
-        "type": {
-            "name": "EClass",
-            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
-        }
-    },
-    {
-        "container": {
-            "reference": "eClassifiers",
-            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
-        },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EClassifier"],
-        "name": "EClassifier",
-        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "location": "eClassifiers/EClassifier/index.html",
-        "type": {
-            "name": "EClass",
-            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
-        }
-    },
-    {
-        "container": {
-            "reference": "eClassifiers",
-            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
-        },
-        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EClass"],
-        "name": "EClass",
-        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
-        "description": "purum",
-        "location": "eClassifiers/EClass/index.html",
+        "location": "eClassifiers/EEnumLiteral/index.html",
         "type": {
             "name": "EClass",
             "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
@@ -323,6 +196,133 @@
         "name": "EObject",
         "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
         "location": "eClassifiers/EObject/index.html",
+        "type": {
+            "name": "EClass",
+            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
+        }
+    },
+    {
+        "container": {
+            "reference": "eClassifiers",
+            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
+        },
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EDataType"],
+        "name": "EDataType",
+        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
+        "location": "eClassifiers/EDataType/index.html",
+        "type": {
+            "name": "EClass",
+            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
+        }
+    },
+    {
+        "container": {
+            "reference": "eClassifiers",
+            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
+        },
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EModelElement"],
+        "name": "EModelElement",
+        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
+        "location": "eClassifiers/EModelElement/index.html",
+        "type": {
+            "name": "EClass",
+            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
+        }
+    },
+    {
+        "container": {
+            "reference": "eClassifiers",
+            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
+        },
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EReference"],
+        "name": "EReference",
+        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
+        "location": "eClassifiers/EReference/index.html",
+        "type": {
+            "name": "EClass",
+            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
+        }
+    },
+    {
+        "container": {
+            "reference": "eClassifiers",
+            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
+        },
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EPackage"],
+        "name": "EPackage",
+        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
+        "location": "eClassifiers/EPackage/index.html",
+        "type": {
+            "name": "EClass",
+            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
+        }
+    },
+    {
+        "container": {
+            "reference": "eClassifiers",
+            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
+        },
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EStructuralFeature"],
+        "name": "EStructuralFeature",
+        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
+        "location": "eClassifiers/EStructuralFeature/index.html",
+        "type": {
+            "name": "EClass",
+            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
+        }
+    },
+    {
+        "container": {
+            "reference": "eClassifiers",
+            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
+        },
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EClass"],
+        "name": "EClass",
+        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
+        "description": "purum",
+        "location": "eClassifiers/EClass/index.html",
+        "type": {
+            "name": "EClass",
+            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
+        }
+    },
+    {
+        "container": {
+            "reference": "eClassifiers",
+            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
+        },
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EClassifier"],
+        "name": "EClassifier",
+        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
+        "location": "eClassifiers/EClassifier/index.html",
+        "type": {
+            "name": "EClass",
+            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
+        }
+    },
+    {
+        "container": {
+            "reference": "eClassifiers",
+            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
+        },
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/EOperation"],
+        "name": "EOperation",
+        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
+        "location": "eClassifiers/EOperation/index.html",
+        "type": {
+            "name": "EClass",
+            "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
+        }
+    },
+    {
+        "container": {
+            "reference": "eClassifiers",
+            "identifiers": ["http://www.eclipse.org/emf/2002/Ecore"]
+        },
+        "identifiers": ["http://www.eclipse.org/emf/2002/Ecore/eClassifiers/ENamedElement"],
+        "name": "ENamedElement",
+        "icon": "https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif",
+        "location": "eClassifiers/ENamedElement/index.html",
         "type": {
             "name": "EClass",
             "ns-uri": "http://www.eclipse.org/emf/2002/Ecore"
