@@ -1,0 +1,1 @@
+var searchDocuments = {"glossary.html":{"action-uuid":"f4b69722-9bbb-47ca-8cf2-ca5a9f98522f","title":"Glossary","content":"Clear Identifier(s) Hide UUID {{data.value.name}} {{data.value[0].value}} {{item.value}}"},"index.html":{"action-uuid":"4430ae8e-1498-4b38-95d1-1596f0fde141","title":"Ecore","content":"EClass"}}

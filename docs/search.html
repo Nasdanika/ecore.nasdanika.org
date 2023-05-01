@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css" id="nsd-bootstrap-theme-stylesheet"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/css/app.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jstree@3.3.11/dist/themes/default/style.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.1.0/github-markdown.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/default.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-vue@2.21.2/dist/bootstrap-vue.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/common.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/dark-head.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jstree@3.3.11/dist/jstree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-vue@2.21.2/dist/bootstrap-vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/components/table.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid nsd-app-container">
+      <div class="row">
+        <div class="col nsd-app-header">
+          <a href="https://www.nasdanika.org" data-nsd-label-uuid="3022a707-f5b6-4be8-be4e-c1eeb7c1cdec" class="nsd-app-header-title">
+            <img src="https://docs.nasdanika.org/images/nasdanika-logo.png" class="nsd-app-label-icon"/>Nasdanika</a>
+          <ul class="nav nsd-app-header-navs">
+            <li class="nav-item"><span data-nsd-label-uuid="0161616b-3a75-4493-add8-9a9bfa4d8381" class="navbar-text"><span class="fas fa-search nsd-app-label-icon"></span>Search</span>
+            </li>
+            <li class="nav-item">
+              <a href="glossary.html" data-nsd-label-uuid="f4b69722-9bbb-47ca-8cf2-ca5a9f98522f" class="nav-link"><span class="fas fa-book nsd-app-label-icon"></span>Glossary</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col nsd-app-navbar">
+          <ul class="navbar navbar-light navbar-expand-lg">
+            <a href="index.html" data-nsd-label-uuid="4430ae8e-1498-4b38-95d1-1596f0fde141" class="navbar-brand">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EPackage.gif" class="nsd-app-label-icon"/>Ecore</a>
+            <button type="button" data-toggle="collapse" data-target="#nsd_bs" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="nsd_bs" class="collapse navbar-collapse"></div>
+          </ul>
+        </div>
+      </div>
+      <div class="row nsd-app-content-row">
+        <div class="col nsd-app-navigation-panel">
+          <div class="list-group list-group-flush">
+            <a href="eClassifiers/EModelElement/index.html" data-nsd-label-uuid="5b2854e9-700b-441e-9434-7d773b4c6421" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EModelElement</a>
+            <a href="eClassifiers/EPackage/index.html" data-nsd-label-uuid="9012f2b6-1591-42be-97ea-e647ac7f647c" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EPackage</a>
+            <a href="eClassifiers/EFactory/index.html" data-nsd-label-uuid="ace00b13-1588-40eb-a247-29f8965db043" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EFactory</a>
+            <a href="eClassifiers/EEnumLiteral/index.html" data-nsd-label-uuid="3f078ee0-da9f-420d-b51d-959cda52367c" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EEnumLiteral</a>
+            <a href="eClassifiers/ENamedElement/index.html" data-nsd-label-uuid="8ee98dd6-0fde-4069-a1c9-2ec481e06c50" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>ENamedElement</a>
+            <a href="eClassifiers/EOperation/index.html" data-nsd-label-uuid="8b629d6c-f669-45f4-9d84-20d88acb4fe5" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EOperation</a>
+            <a href="eClassifiers/EReference/index.html" data-nsd-label-uuid="19bc227a-1a10-40f3-9d4d-fadabbf6a5bc" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EReference</a>
+            <a href="eClassifiers/EGenericType/index.html" data-nsd-label-uuid="3ec23efc-385c-4a7b-a2e0-e45e12db3053" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EGenericType</a>
+            <a href="eClassifiers/EDataType/index.html" data-nsd-label-uuid="095912b2-cdc8-4c81-8d3c-83298a89b68a" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EDataType</a>
+            <a href="eClassifiers/EEnum/index.html" data-nsd-label-uuid="84118a25-b015-41e3-a295-9452c861223d" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EEnum</a>
+            <a href="eClassifiers/EParameter/index.html" data-nsd-label-uuid="023e0e93-31ae-4ac3-a32b-a1ab1f00c762" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EParameter</a>
+            <a href="eClassifiers/ETypedElement/index.html" data-nsd-label-uuid="ef17477b-cab8-4a5a-9279-a6e4c6ecd4ac" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>ETypedElement</a>
+            <a href="eClassifiers/EAnnotation/index.html" data-nsd-label-uuid="b3116ee2-8f41-49c8-b455-5f23c34d4889" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EAnnotation</a>
+            <a href="eClassifiers/EStructuralFeature/index.html" data-nsd-label-uuid="052a4267-e880-46a4-a887-6465416ba54d" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EStructuralFeature</a>
+            <a href="eClassifiers/EStringToStringMapEntry/index.html" data-nsd-label-uuid="c24ab8da-49dd-46a7-b8ae-dcc1155ea1c7" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EStringToStringMapEntry</a>
+            <a href="eClassifiers/ETypeParameter/index.html" data-nsd-label-uuid="81dd02e7-9d22-4a38-82bd-bbc35cfa592d" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>ETypeParameter</a>
+            <a href="eClassifiers/EClassifier/index.html" data-nsd-label-uuid="1f091c06-90b1-481a-82ad-5fb768126dc6" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EClassifier</a>
+            <a href="eClassifiers/EClass/index.html" title="purum" data-nsd-label-uuid="f6586e54-a5e1-4eb0-8661-688fa8fb6b8d" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EClass</a>
+            <a href="eClassifiers/EAttribute/index.html" data-nsd-label-uuid="4e3e4a1c-f006-4b80-b65b-c9b40f61cd73" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EAttribute</a>
+            <a href="eClassifiers/EObject/index.html" data-nsd-label-uuid="3c692aab-1b88-47ea-8fe4-925e319c73b9" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif" class="nsd-app-label-icon"/>EObject</a>
+          </div>
+        </div>
+        <div data-nsd-label-uuid="0161616b-3a75-4493-add8-9a9bfa4d8381" data-nsd-action-uris="uuid:0161616b-3a75-4493-add8-9a9bfa4d8381" class="col nsd-app-content-panel">
+          <div class="container-fluid">
+            <div class="row nsd-app-content-panel-title-and-items-row">
+              <div class="col-auto">
+                <H1><span data-nsd-label-uuid="0161616b-3a75-4493-add8-9a9bfa4d8381" class="nsd-app-content-panel-title"><span class="fas fa-search nsd-app-label-icon"></span>Search</span>
+                </H1>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-content-row">
+              <div class="col">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col">		<script src="https://cdn.jsdelivr.net/gh/olivernn/lunr.js@v2.3.9/lunr.js"></script>     
+		<script src="search-documents.js"></script>     
+     	<div id="search-app" class="container-fluid">
+     		<div class="row">
+     			<div class="col">
+					<b-form-group
+			          label="Filter"
+			          label-for="filter-input"
+			          label-cols-sm="3"
+			          label-align-sm="right"
+			          label-size="sm"
+			          class="mb-0"
+					  description="You can use wildcards, e.g. 'foo*' or 'f*o'; title or content fields, e.g. 'title:foo* bar'; boosts, e.g. 'foo^10 bar'; fuzzy matches, e.g. 'foo~1'; and term presence, e.g. '+foo bar -baz'"	          
+			        >
+			          <b-input-group size="sm">
+			            <b-form-input
+			              id="filter-input"
+			              v-model="filter"
+			              type="search"
+			              placeholder="Type to Search"
+			              debounce="700"
+			            ></b-form-input>
+			
+			            <b-input-group-append>
+			              <b-button :disabled="!filter" @click="filter = ''">Clear</b-button>
+			            </b-input-group-append>
+			          </b-input-group>
+			        </b-form-group>		
+     			</div>     		
+     		</div>
+	        
+	        <div class="row flex-nowrap">
+	        	<div class="col-auto border-right border-secondary pb-1">
+	        		<div id="nsd-site-map-tree">
+	        		</div>
+	        	</div>
+	        	<div class="col">
+			        <b-card 
+			        	v-for="searchResult in searchResults" 
+			        	:header-html="searchResult.title" 
+			        	:footer="searchResult.path"
+			        	class="my-1"
+			        	>
+			        	
+			        	<b-card-text><span v-html="searchResult.content"></span></b-card-text>
+			        </b-card>
+	        	</div>
+	        </div>	        
+     	</div>
+     
+		<script>		      
+			new Vue({
+				  el: '#search-app',
+				  data: {
+			        	filter: null,
+				      searchIndex : lunr(function () {
+						  this.ref('url');
+						  this.field('title');
+						  this.field('content');
+						  this.metadataWhitelist = ['position'];
+	
+						  for (const key in searchDocuments) {
+							  let doc = searchDocuments[key];
+							this.add({
+								url: key,
+								title: doc.title,
+								path: doc.path,
+								content: doc.content
+							});  
+						  }
+						})
+				  },				  
+				  computed: {
+					searchResults: function() {
+						if (this.filter) {
+							let searchResult = this.searchIndex.search(this.filter);
+							let actionUuids = searchResult.map(match => searchDocuments[match.ref]['action-uuid']).join(" ");
+							setTimeout(() => {
+								let treeSearchCallback = $('#nsd-site-map-tree').jstree(true).search;
+								if (treeSearchCallback) {
+									$('#nsd-site-map-tree').jstree(true).search(actionUuids);								
+								}
+							});
+							
+							return searchResult.map(function(e) {
+								let doc = searchDocuments[e.ref];
+								let titleMatches = [];
+								let contentMatches = [];
+								let matchMetaData = e.matchData.metadata;
+								for (const term in matchMetaData) {
+									if (matchMetaData[term]['title']) {
+										let positions = matchMetaData[term]['title'].position;
+										for (const match in positions) {
+											titleMatches.push(positions[match]);
+										}										
+									}
+									if (matchMetaData[term]['content']) {
+										let positions = matchMetaData[term]['content'].position;
+										for (const match in positions) {
+											contentMatches.push(positions[match]);
+										}										
+									}
+								}
+								
+								// Title highlighting
+								titleMatches.sort(function (a, b) { return a[0] - b[0] });
+								let titleElements = [];
+								let idx = 0;
+								for (const matchIdx in titleMatches) {
+									let match = titleMatches[matchIdx];
+									if (match[0] > idx) {
+										titleElements.push(doc.title.substring(idx, match[0]));
+									}
+									idx =  match[0] + match[1];
+									titleElements.push(`<span class='nsd-mark'>${doc.title.substring(match[0], idx)}</span>`);
+								}
+								if (idx < doc.title.length - 1) {
+									titleElements.push(doc.title.substring(idx, doc.title.length));
+								}
+								
+								// Content ellipsing and highlighting
+								contentMatches.sort(function (a, b) { return a[0] - b[0] });
+								let contentElements = [];
+								let snippetLength = 10;
+								idx = 0;
+								for (const matchIdx in contentMatches) {
+									let match = contentMatches[matchIdx];
+									if (match[0] > idx) {
+										let words = doc.content.substring(idx, match[0]).split(' ');
+										let snippetedWords = [];
+										if (idx == 0) {
+											if (words.length <= snippetLength) {
+												snippetedWords = words;
+											} else {
+												snippetedWords.push("&hellip;");
+												words.slice(words.length - snippetLength, words.length).forEach(e => snippetedWords.push(e));
+											}
+										} else {
+											if (words.length <= snippetLength * 2) {
+												snippetedWords = words;
+											} else {
+												words.slice(0, snippetLength).forEach(e => snippetedWords.push(e));
+												snippetedWords.push("&hellip;");
+												words.slice(words.length - snippetLength, words.length).forEach(e => snippetedWords.push(e));
+											}
+											
+										}
+										contentElements.push(snippetedWords.join(' '));
+									}
+									idx =  match[0] + match[1];
+									contentElements.push(`<span class='nsd-mark'>${doc.content.substring(match[0], idx)}</span>`);
+								}
+								if (idx < doc.content.length - 1) {
+									let words = doc.content.substring(idx, doc.content.length).split(' ');
+									if (idx == 0) {
+										if (words.length < snippetLength * 2) {
+											contentElements.push(doc.content);
+										} else {
+											let snippetedWords = [];
+											words.slice(0, snippetLength * 2).forEach(e => snippetedWords.push(e));
+											snippetedWords.push("&hellip;");
+											contentElements.push(snippetedWords.join(' '));
+										}
+									} else {
+										let snippetedWords = [];
+										if (words.length <= snippetLength) {
+											snippetedWords = words;
+										} else {
+											words.slice(0, snippetLength).forEach(e => snippetedWords.push(e));
+											snippetedWords.push("&hellip;");
+										}
+										contentElements.push(snippetedWords.join(' '));
+									}
+								}
+								return {
+									title: `<h5><a href="${e.ref}">${titleElements.join('')}</a></h5>`,
+									path: doc.path,
+									content: contentElements.join('')
+								};									
+							});
+						} 
+						setTimeout(() => {
+							let treeSearchCallback = $('#nsd-site-map-tree').jstree(true).search;
+							if (treeSearchCallback) {
+								$('#nsd-site-map-tree').jstree(true).search('');								
+							}
+						});
+						return [];
+					}  
+				  }
+			});   			
+		</script>
+		
+
+<script>$(document).ready( function() {
+$('#nsd-site-map-tree').jstree(function(tree) { tree.state.filter = function(state) { delete state.core.selected; return state; }; tree.search.search_callback = (results, node) => results.split(' ').includes(node.original['data-nsd-label-uuid']); return tree; }({"core":{"data":[{"a_attr":{"onclick":"window.location='https://www.nasdanika.org';"},"children":[{"children":[{"data-nsd-label-uuid":"0161616b-3a75-4493-add8-9a9bfa4d8381","icon":"fas fa-search","id":"0c0153d4-d2a5-48ab-b986-811882e0d084","text":"Search","type":"leaf"},{"a_attr":{"onclick":"window.location='glossary.html';"},"data-nsd-label-uuid":"f4b69722-9bbb-47ca-8cf2-ca5a9f98522f","icon":"fas fa-book","id":"0c505134-f057-4bc8-84ad-479a9828eb52","text":"Glossary","type":"leaf"}],"text":"Children"}],"data-nsd-label-uuid":"3022a707-f5b6-4be8-be4e-c1eeb7c1cdec","icon":"https://docs.nasdanika.org/images/nasdanika-logo.png","id":"9974284b-e9b1-419f-b6fd-ad19369cd761","text":"Nasdanika","type":"leaf"},{"a_attr":{"onclick":"window.location='index.html';"},"children":[{"children":[{"a_attr":{"onclick":"window.location='eClassifiers/EModelElement/index.html';"},"data-nsd-label-uuid":"5b2854e9-700b-441e-9434-7d773b4c6421","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"221d9ba9-933e-4814-9471-f67a2be8f2b9","text":"EModelElement","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EPackage/index.html';"},"data-nsd-label-uuid":"9012f2b6-1591-42be-97ea-e647ac7f647c","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"7303f649-f765-446a-907b-b833b5ccd4d7","text":"EPackage","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EFactory/index.html';"},"data-nsd-label-uuid":"ace00b13-1588-40eb-a247-29f8965db043","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"477de7c1-df66-4f4d-887a-33ceb27b29a1","text":"EFactory","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EEnumLiteral/index.html';"},"data-nsd-label-uuid":"3f078ee0-da9f-420d-b51d-959cda52367c","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"5ee21830-c088-4392-9d10-420ebf87143a","text":"EEnumLiteral","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/ENamedElement/index.html';"},"data-nsd-label-uuid":"8ee98dd6-0fde-4069-a1c9-2ec481e06c50","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"302e4e64-ddcd-404e-9603-438d1ebe78d4","text":"ENamedElement","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EOperation/index.html';"},"data-nsd-label-uuid":"8b629d6c-f669-45f4-9d84-20d88acb4fe5","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"567f1061-1415-430c-b3fb-3aa2176e0270","text":"EOperation","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EReference/index.html';"},"data-nsd-label-uuid":"19bc227a-1a10-40f3-9d4d-fadabbf6a5bc","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"2adeb35b-f0b0-4129-8885-582794385873","text":"EReference","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EGenericType/index.html';"},"data-nsd-label-uuid":"3ec23efc-385c-4a7b-a2e0-e45e12db3053","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"63c88316-565d-402c-b291-aca7602c576d","text":"EGenericType","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EDataType/index.html';"},"data-nsd-label-uuid":"095912b2-cdc8-4c81-8d3c-83298a89b68a","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"05ce6129-2f58-4522-8ab3-de8b9201bc2c","text":"EDataType","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EEnum/index.html';"},"data-nsd-label-uuid":"84118a25-b015-41e3-a295-9452c861223d","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"ac24c1e2-e0c1-44ec-9e59-b471703cf181","text":"EEnum","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EParameter/index.html';"},"data-nsd-label-uuid":"023e0e93-31ae-4ac3-a32b-a1ab1f00c762","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"fc16618f-00e6-4d64-981c-7a42b31816ea","text":"EParameter","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/ETypedElement/index.html';"},"data-nsd-label-uuid":"ef17477b-cab8-4a5a-9279-a6e4c6ecd4ac","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"23445193-1527-46f6-adca-d8d4b7552ccd","text":"ETypedElement","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EAnnotation/index.html';"},"data-nsd-label-uuid":"b3116ee2-8f41-49c8-b455-5f23c34d4889","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"25a7d60d-aa3c-4c11-9ef2-be4f885fcf41","text":"EAnnotation","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EStructuralFeature/index.html';"},"data-nsd-label-uuid":"052a4267-e880-46a4-a887-6465416ba54d","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"8e5ecb65-432f-4467-8523-bb7a9446a4c9","text":"EStructuralFeature","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EStringToStringMapEntry/index.html';"},"data-nsd-label-uuid":"c24ab8da-49dd-46a7-b8ae-dcc1155ea1c7","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"2987982d-a3fd-4a1a-bd7b-639cdefb8700","text":"EStringToStringMapEntry","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/ETypeParameter/index.html';"},"data-nsd-label-uuid":"81dd02e7-9d22-4a38-82bd-bbc35cfa592d","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"2d8dd502-e3db-4a23-b945-d045babb0378","text":"ETypeParameter","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EClassifier/index.html';"},"data-nsd-label-uuid":"1f091c06-90b1-481a-82ad-5fb768126dc6","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"73298722-a3ed-4605-abf9-4e4f2939771b","text":"EClassifier","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EClass/index.html';"},"data-nsd-label-uuid":"f6586e54-a5e1-4eb0-8661-688fa8fb6b8d","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"b7925341-17ba-42ec-b985-33f6d65ef711","text":"EClass","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EAttribute/index.html';"},"data-nsd-label-uuid":"4e3e4a1c-f006-4b80-b65b-c9b40f61cd73","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"af044a14-b01a-479f-909f-8a45ac36fda2","text":"EAttribute","type":"leaf"},{"a_attr":{"onclick":"window.location='eClassifiers/EObject/index.html';"},"data-nsd-label-uuid":"3c692aab-1b88-47ea-8fe4-925e319c73b9","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EClass.gif","id":"5a3ba04d-2063-4148-a054-ea25dc0ceffd","text":"EObject","type":"leaf"}],"text":"E classifiers"}],"data-nsd-label-uuid":"4430ae8e-1498-4b38-95d1-1596f0fde141","icon":"https://cdn.jsdelivr.net/gh/Nasdanika/html@master/ecore.gen/icons/EPackage.gif","id":"6fa29bf2-f356-4512-83ab-5594dc6edeae","text":"Ecore","type":"leaf"}]},"search":{"show_only_matches":true},"plugins":["state","search"],"state":{"key":"nsd-site-map-tree"}}));
+});</script>
+				
+		</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
