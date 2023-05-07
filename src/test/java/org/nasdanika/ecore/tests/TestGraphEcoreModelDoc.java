@@ -2,6 +2,9 @@ package org.nasdanika.ecore.tests;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -12,12 +15,16 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+import org.apache.commons.codec.binary.Hex;
 import org.eclipse.emf.common.util.DiagnosticException;
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EAttribute;
+import org.eclipse.emf.ecore.EClassifier;
 import org.eclipse.emf.ecore.ENamedElement;
 import org.eclipse.emf.ecore.EObject;
+import org.eclipse.emf.ecore.EOperation;
 import org.eclipse.emf.ecore.EPackage;
+import org.eclipse.emf.ecore.EParameter;
 import org.eclipse.emf.ecore.EReference;
 import org.eclipse.emf.ecore.EcorePackage;
 import org.eclipse.emf.ecore.resource.Resource;
@@ -56,15 +63,35 @@ public class TestGraphEcoreModelDoc {
 	protected Object eKeyToPathSegment(EAttribute keyAttribute, Object keyValue) {
 		return keyValue;
 	}	
-	
+		
 	protected String path(EObjectNode source, EObjectNode target, EReference reference, int index) {
 		if (reference.getEKeys().isEmpty() && target.getTarget() instanceof ENamedElement && reference.isUnique()) {
-			// TODO - eOperation - hash of signature, copy from the old code.
+			String name = ((ENamedElement) target.getTarget()).getName();
+			if (target.getTarget() instanceof EOperation && !((EOperation) target.getTarget()).getEParameters().isEmpty()) {
+				StringBuilder signatureBuilder = new StringBuilder(name);
+				EOperation eOperation = (EOperation) target.getTarget();
+				// Creating a digest of parameter types to make the id shorter.
+				try {
+					MessageDigest md = MessageDigest.getInstance("SHA-256");
+					
+					for (EParameter ep: eOperation.getEParameters()) {
+						EClassifier type = ep.getEType();
+						String typeStr = type.getName() + "@" + type.getEPackage().getNsURI();
+						md.update(typeStr.getBytes(StandardCharsets.UTF_8));
+					}
+					signatureBuilder.append("-").append(Hex.encodeHexString(md.digest()));			
+	
+					return signatureBuilder.toString();
+				} catch (NoSuchAlgorithmException e) {
+					throw new NasdanikaException(e);
+				}
+			}
 			
-			return ((ENamedElement) target.getTarget()).getName();
+			return name;
 		}
 		return Util.path(source, target, reference, index, this::eKeyToPathSegment);
 	}
+	
 	
 	@Test
 	public void testGraphEcoreDoc() throws IOException, DiagnosticException {
@@ -80,7 +107,7 @@ public class TestGraphEcoreModelDoc {
 		EcoreDocLoader ecoreDocLoader = new EcoreDocLoader(diagnosticConsumer, context, progressMonitor);
 		actionProviders.add(ecoreDocLoader::getPrototype);
 		
-		EcoreNodeProcessorFactory ecoreNodeProcessorFactory = new EcoreNodeProcessorFactory(context, uri -> {
+		EcoreNodeProcessorFactory ecoreNodeProcessorFactory = new EcoreNodeProcessorFactory(context, (uri, pm) -> {
 			for (Function<URI, Action> ap: actionProviders) {
 				Action prototype = ap.apply(uri);
 				if (prototype != null) {
@@ -122,7 +149,7 @@ public class TestGraphEcoreModelDoc {
 					Object processor = info.getProcessor();
 					if (processor instanceof URINodeProcessor) {
 						URINodeProcessor uriNodeProcessor = (URINodeProcessor) processor;
-						uriNodeProcessor.resolve(baseActionURI);
+						uriNodeProcessor.resolve(baseActionURI, progressMonitor);
 						ecoreProcessor = uriNodeProcessor;
 					}
 				}

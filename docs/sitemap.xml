@@ -2,117 +2,467 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EAnnotation/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.927-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.251-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EAnnotation/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.255-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EAnnotation/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.259-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EAttribute/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.931-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.262-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EAttribute/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.268-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EAttribute/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.271-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EBigDecimal/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.276-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EBigInteger/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.284-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EBoolean/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.294-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EBooleanObject/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.299-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EByte/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.304-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EByteArray/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.311-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EByteObject/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.316-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EChar/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.321-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/ECharacterObject/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.327-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EClass/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.934-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.336-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EClass/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.340-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EClass/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.343-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EClassifier/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.942-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.347-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EClassifier/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.349-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EClassifier/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.355-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EDataType/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.946-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.361-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EDataType/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.378-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EDataType/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.382-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EDate/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.391-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EDiagnosticChain/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.396-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EDouble/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.401-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EDoubleObject/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.407-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EEList/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.413-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EEnum/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.949-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.419-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EEnum/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.422-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EEnum/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.428-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EEnumerator/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.442-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EEnumLiteral/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.953-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.432-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EEnumLiteral/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.434-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EEnumLiteral/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.437-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EFactory/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.957-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.447-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EFactory/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.451-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EFactory/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.455-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EFeatureMap/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.465-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EFeatureMapEntry/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.472-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EFloat/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.478-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EFloatObject/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.483-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EGenericType/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.961-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.509-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EGenericType/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.513-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EGenericType/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.517-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EInt/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.532-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EIntegerObject/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.536-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EInvocationTargetException/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.541-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EJavaClass/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.547-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EJavaObject/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.555-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/ELong/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.564-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/ELongObject/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.571-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EMap/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.581-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EModelElement/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.964-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.589-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EModelElement/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.592-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EModelElement/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.597-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/ENamedElement/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.968-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.605-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/ENamedElement/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.609-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/ENamedElement/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.611-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EObject/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.973-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.617-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EObject/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.620-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EOperation/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.977-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.656-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EOperation/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.659-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EOperation/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.665-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EPackage/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.982-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.674-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EPackage/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.678-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EPackage/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.682-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EParameter/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.987-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.690-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EParameter/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.694-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EParameter/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.697-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EReference/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.992-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.705-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EReference/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.708-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EReference/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.713-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EResource/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.719-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EResourceSet/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.725-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EShort/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.732-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EShortObject/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.857-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EString/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.865-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EStringToStringMapEntry/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.997-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.876-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/EStructuralFeature/index.html</loc>
-    <lastmod>2023-05-01T22:56:21.001-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.883-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EStructuralFeature/operations.html</loc>
+    <lastmod>2023-05-07T15:30:32.951-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/EStructuralFeature/references.html</loc>
+    <lastmod>2023-05-07T15:30:32.955-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/ETreeIterator/index.html</loc>
+    <lastmod>2023-05-07T15:30:32.966-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/ETypedElement/index.html</loc>
-    <lastmod>2023-05-01T22:56:21.010-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:33.038-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/ETypedElement/operations.html</loc>
+    <lastmod>2023-05-07T15:30:33.040-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/ETypedElement/references.html</loc>
+    <lastmod>2023-05-07T15:30:33.052-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/eClassifiers/ETypeParameter/index.html</loc>
-    <lastmod>2023-05-01T22:56:21.006-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:33.025-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/ETypeParameter/operations.html</loc>
+    <lastmod>2023-05-07T15:30:33.028-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://architecture.nasdanika.org/eClassifiers/ETypeParameter/references.html</loc>
+    <lastmod>2023-05-07T15:30:33.031-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/glossary.html</loc>
-    <lastmod>2023-05-01T22:56:21.016-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:33.066-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/index.html</loc>
-    <lastmod>2023-05-01T22:56:20.920-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:32.247-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://architecture.nasdanika.org/search.html</loc>
-    <lastmod>2023-05-01T22:56:21.013-04:00</lastmod>
+    <lastmod>2023-05-07T15:30:33.059-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
